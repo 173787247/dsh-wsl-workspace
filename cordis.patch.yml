@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-wsl-workspace
+      name: dsh-wsl-workspace
+      config:
+        timeoutMs: 15000
+        defaultBase: ~/projects

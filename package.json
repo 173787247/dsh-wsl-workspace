@@ -1,0 +1,30 @@
+{
+  "name": "dsh-wsl-workspace",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness tool: list WSL distros, check Linux paths, suggest a workspace root.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/173787247/dsh-wsl-workspace.git"
+  },
+  "bugs": {
+    "url": "https://github.com/173787247/dsh-wsl-workspace/issues"
+  },
+  "homepage": "https://github.com/173787247/dsh-wsl-workspace#readme",
+  "type": "module",
+  "main": "index.js",
+  "engines": { "node": ">=18" },
+  "scripts": { "test": "node --test test/workspace.test.js" },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": ["dsh-plugin", "deepseek-harness", "wsl", "workspace"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } }
+}
