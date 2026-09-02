@@ -1,4 +1,6 @@
 # dsh-wsl-workspace
+> **Install set:** part of [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit). Prefer `KIT_SET=daily` | `llm` | `github` | `full` (see kit README). Fault tree: [TROUBLESHOOTING.md](https://github.com/173787247/dsh-wsl-kit/blob/master/docs/TROUBLESHOOTING.md).
+
 
 DeepSeek Harness plugin: List WSL distros and validate a Linux workspace path for DeepSeek Harness under WSL.
 
