@@ -1,6 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Workspace check: Desktop/Downloads, `.git`, suggested `~/src`, links mnt/encoding/path.
+- List: current vs default distro warning.
+
 ## 0.1.0
 
-- Initial public release of `dsh-wsl-workspace` for DeepSeek Harness on Windows + WSL.
-- Tool `wsl_workspace`: `list_distros`, `check_path`, `suggest`.
+- Initial list/check.

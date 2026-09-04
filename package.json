@@ -1,7 +1,7 @@
 {
   "name": "dsh-wsl-workspace",
-  "version": "0.1.0",
-  "description": "List WSL distros and validate a Linux workspace path for DSH.",
+  "version": "0.2.0",
+  "description": "wsl_workspace: list distros and validate Linux workspace paths with /mnt hygiene.",
   "license": "MIT",
   "repository": {
     "type": "git",

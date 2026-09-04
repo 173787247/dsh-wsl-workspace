@@ -11,12 +11,13 @@ export function apply(ctx, config = {}) {
   ctx.systemPrompt.section({
     name: "tool:wsl_workspace",
     order: 110,
-    text: "Use wsl_workspace for WSL/Windows interop: List WSL distros and validate a Linux workspace path for DSH.",
+    text: "Use wsl_workspace to list distros or check a Linux workspace path (flag /mnt Desktop, .git, suggest ~/src). Pair with mnt_doctor / distro_info / path_convert.",
   });
 
   ctx.tools.register({
     name: "wsl_workspace",
-    description: "List WSL distros and validate a Linux workspace path for DSH.",
+    description:
+      "List WSL distros (current vs default) or validate a Linux workspace path for DSH (/mnt hygiene).",
     parameters: core.parameters(config),
     output: {
       schema: core.outputSchema(),
