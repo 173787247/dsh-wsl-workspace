@@ -22,3 +22,15 @@ npm test
 ```
 
 MIT
+
+## Where it sits
+
+Lists distros and checks that a Linux workspace path is not a slow /mnt mistake.
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["wsl_workspace"] --> ws["distro and Linux workspace path"]
+```
+
+Suite diagram and version snapshot: [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit#how-the-pieces-fit). This plugin is **0.2.0** (full). Do not copy that matrix into this README.
+

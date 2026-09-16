@@ -23,3 +23,15 @@ npm test
 ```
 
 MIT
+
+## 在套件里的位置
+
+列出发行版，并检查 Linux 工作区路径是不是误放在慢速 /mnt 上。
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["wsl_workspace"] --> ws["发行版与 Linux 工作区路径"]
+```
+
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.2.0**（full）。不要把那份总表抄进本 README。
+
