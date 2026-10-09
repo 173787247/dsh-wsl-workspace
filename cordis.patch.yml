@@ -1,5 +1,5 @@
 - insert:
     - id: dsh-wsl-workspace
-      name: dsh-wsl-workspace
+      name: dsh-wsl-workspace-check
       config:
         timeoutMs: 15000

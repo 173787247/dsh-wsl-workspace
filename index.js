@@ -1,7 +1,7 @@
 import { detectWsl } from "./lib/wsl-host.js";
 import * as core from "./lib/workspace.js";
 
-export const name = "dsh-wsl-workspace";
+export const name = "dsh-wsl-workspace-check";
 export const inject = ["tools", "systemPrompt"];
 
 export function apply(ctx, config = {}) {

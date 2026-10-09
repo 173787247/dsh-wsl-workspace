@@ -1,5 +1,5 @@
 {
-  "name": "dsh-wsl-workspace",
+  "name": "dsh-wsl-workspace-check",
   "version": "0.2.0",
   "description": "wsl_workspace: list distros and validate Linux workspace paths with /mnt hygiene.",
   "license": "MIT",
